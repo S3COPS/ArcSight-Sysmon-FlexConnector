@@ -1,0 +1,20 @@
+event.externalId,set.event.name
+1,Process Create
+2,File creation time changed
+3,Network connection detected
+4,Sysmon service state changed
+5,Process terminated
+6,Driver loaded
+7,Image loaded
+8,CreateRemoteThread detected
+9,RawAccessRead detected
+10,Process accessed
+11,File created
+12,Registry object added or deleted
+13,Registry value set
+14,Registry object renamed
+15,File stream created
+16,Sysmon config state changed
+17,Pipe Created
+18,Pipe Connected
+255,Error report
