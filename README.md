@@ -20,3 +20,4 @@ Restart the Windows Native Connector
 For more details on configuration of Sysmon refer to https://technet.microsoft.com/en-gb/sysinternals/sysmon
 
 for an excellent sample sysmon config file refer to https://github.com/SwiftOnSecurity/sysmon-config
+
