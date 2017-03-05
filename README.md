@@ -12,7 +12,9 @@ Dependencies: HPE ArcSight SmartConnector Framework at least 7.4 (For automatic 
 
 # Installation Summary
 Copy the fcp and acp folders and the contents to the CONNECTOR_HOME/current/user/agent/ folder on the Windows Native Connector
+
 Add the following Event Log to the Windows Native Connector Custom Log section:Microsoft-Windows-Sysmon/Operational
+
 or add directly to the agent.properties file:agents[0].windowshoststable[0].eventlogtypes=Microsoft-Windows-Sysmon/Operational 
 
 Restart the Windows Native Connector
