@@ -17,4 +17,7 @@ SysmonTask-SYSMON_FILE_CREATE_STREAM_HASH,/Host/Resource/File,/Communicate,/Traf
 SysmonTask-SYSMON_SERVICE_CONFIGURATION_CHANGE,/Host/Application/Service,/Modify,,/Success,/Informational/Warning,/Operating System,/Operating System,,Source
 SysmonTask-SYSMON_CREATE_NAMEDPIPE,/Host/Resource/Interface/Tunnel,/Create,,/Success,/Informational/Warning,/Operating System,/Operating System,/Attack Lifecycle/Install,Source
 SysmonTask-SYSMON_CONNECT_NAMEDPIPE,/Host/Resource/Interface/Tunnel,/Communicate,,/Success,/Informational/Warning,/Operating System,/Operating System,/Attack Lifecycle/Install,Source
+SysmonTask-SYSMON_WMI_FILTER,/Host/Resource/File,/Access,,/Success,/Informational/Warning,/Operating System,/Operating System,/Attack Lifecycle/Install,Source
+SysmonTask-SYSMON_WMI_CONSUMER,/Host/Resource/File,/Access,,/Success,/Informational/Warning,/Operating System,/Operating System,/Attack Lifecycle/Install,Source
+SysmonTask-SYSMON_WMI_BINDING,/Host/Resource/File,/Access,,/Success,/Informational/Warning,/Operating System,/Operating System,/Attack Lifecycle/Install,Source
 SysmonTask-SYSMON_ERROR,/Execute/Response,/Communicate,,/Success,/Informational/Error,/Operating System,/Operating System,,Source
