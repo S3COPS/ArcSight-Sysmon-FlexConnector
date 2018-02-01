@@ -2,9 +2,9 @@
 HPE ArcSight Windows Native FlexConnector for Microsoft Sysmon tool
 
 Sysmon WINC Parser
-Built for Sysinternals Sysmon v6.00 - System activity monitor, Copyright (C) Mark Russinovich and Thomas Garnier
+Built for Sysinternals Sysmon v7.01 - System activity monitor, Copyright (C) Mark Russinovich and Thomas Garnier
 
-Device / Product version: Sysmon v6.0, should be backward compatible to Sysmon v3.
+Device / Product version: Sysmon v7.01, should be backward compatible to Sysmon v3.
 https://technet.microsoft.com/en-gb/sysinternals/sysmon
 
 SmartConnector Type: Windows Native Connector
