@@ -17,4 +17,7 @@ event.externalId,set.event.name
 16,Sysmon config state changed
 17,Pipe Created
 18,Pipe Connected
+19,WmiEventFilter activity detected
+20,WmiEventConsumer activity detected
+21,WmiEventConsumerToFilter activity detected
 255,Error report
