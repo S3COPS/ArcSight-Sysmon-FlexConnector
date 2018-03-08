@@ -23,3 +23,7 @@ For more details on configuration of Sysmon refer to https://technet.microsoft.c
 
 for an excellent sample sysmon config file refer to https://github.com/SwiftOnSecurity/sysmon-config
 
+ArcSight SYSMON Content Package
+Via SOC Prime
+Sysmon Framework contains 26 scenarios which are recommended for monitoring in SOC and early detection of APT activity.
+https://tdm.socprime.com/use-case-library/info/425/
