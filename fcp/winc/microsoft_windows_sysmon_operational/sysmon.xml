@@ -7,27 +7,34 @@
   Master author:	@SwiftOnSecurity, other contributors also credited in-line or on Git
   Master project:	https://github.com/SwiftOnSecurity/sysmon-config
   Master license:	Creative Commons Attribution 4.0 | You may privatize, fork, edit, teach, publish, or deploy for commercial use - with attribution in the text.
+
   Fork version:	<N/A>
   Fork author:	<N/A>
   Fork project:	<N/A>
   Fork license:	<N/A>
+
   REQUIRED: Sysmon version 7.01 or higher (due to changes in registry syntax and bug-fixes)
 	https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon
 	Note that 6.03 and 7.01 have critical fixes for filtering, it's recommended you stay updated.
+
   NOTE: To collect Sysmon logs centrally for free, see https://aka.ms/WEF. Command to allow log access to the Network Service:
 	wevtutil.exe sl Microsoft-Windows-Sysmon/Operational /ca:O:BAG:SYD:(A;;0xf0005;;;SY)(A;;0x5;;;BA)(A;;0x1;;;S-1-5-32-573)(A;;0x1;;;NS)
+
   NOTE: Do not let the size and complexity of this configuration discourage you from customizing it or building your own.
 	This configuration is based around known, high-signal event tracing, and thus appears complicated, but it's only very
 	detailed. Significant effort over years has been invested in front-loading as much filtering as possible onto the
 	client. This is to make analysis of intrusions possible by hand, and to try to surface anomalous activity as quickly
 	as possible to any technician armed only with Event Viewer. Its purpose is to democratize system monitoring for all organizations.
+
   NOTE: Sysmon is NOT a whitelist solution or HIDS engine, it is a computer change and event logging tool with very basic exclude rules.
 	Do NOT ignore everything possible. Sysmon's purpose is providing context during a threat or problem investigation. Legitimate
 	processes are routinely used by threats - do not blindly exclude them. Additionally, be mindful of process-hollowing / imitation.
+
   NOTE: Sysmon is not hardened against an attacker with admin rights. Additionally, this configuration offers an attacker, willing
 	to study it, many ways to evade some of the logging. If you are in a high-threat environment, you should consider a much broader
 	log-most approach. However, in the vast majority of cases, an attacker will bumble along through multiple behavioral traps which
 	this configuration monitors, especially in the first minutes.
+
   TECHNICAL:
   - Run sysmon.exe -? for a briefing on Sysmon configuration.
   - Other languages may require localization. Registry and Filesystem paths can change. For example, \shell\open\command\, where "open" is localized.
@@ -41,8 +48,10 @@
   - "ProcessGuid" is randomly generated, assigned, and tracked by Sysmon to assist in tracing individual process launches. Cleared on service restart.
   - "LoginGuid" is randomly generated, assigned, and tracked by Sysmon to assist in tracing individual user sessions. Cleared on service restart.
   - Sysmon does not track which rule caused an event to be logged.
+
   FILTERING: Filter conditions available for use are: is, is not, contains, excludes, begin with, end with, less than, more than, image
   - The "image" filter is usable with any field. Same as "is" but can either match the entire string, or only the text after the last "\" in the string. Credit: @mattifestation
+
   PERFORMANCE: By using "end with" you can save performance by starting a string match at the end of a line, which usually triggers earlier.
 -->
 
