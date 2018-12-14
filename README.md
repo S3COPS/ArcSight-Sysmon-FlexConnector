@@ -2,7 +2,7 @@
 Microfocus ArcSight Windows Native FlexConnector for Microsoft Sysmon tool
 
 Sysmon WINC Parser
-Built for Sysinternals Sysmon v8 - System activity monitor, Copyright (C) Mark Russinovich and Thomas Garnier
+Built for Sysinternals Sysmon v8.x - System activity monitor, Copyright (C) Mark Russinovich and Thomas Garnier
 
 Device / Product version: Sysmon v8, should be backward compatible to Sysmon v3.
 https://technet.microsoft.com/en-gb/sysinternals/sysmon
