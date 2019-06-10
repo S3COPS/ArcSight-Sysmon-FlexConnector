@@ -2,6 +2,7 @@
   ############### GO TO THE SwiftOnSecurity GitHub to get the latest version of this file ###############
   ########################### https://github.com/SwiftOnSecurity/sysmon-config ########################## 
 
+
   sysmon-config | A Sysmon configuration focused on default high-quality event tracing and easy customization by the community
   Master version:	64 | Date: 2018-01-30
   Master author:	@SwiftOnSecurity, other contributors also credited in-line or on Git
@@ -57,7 +58,7 @@
 
 <Sysmon schemaversion="4.00">
 	<!--SYSMON META CONFIG-->
-	<HashAlgorithms>md5,sha256</HashAlgorithms> <!-- Both MD5 and SHA256 are the industry-standard algorithms for identifying files -->
+	<HashAlgorithms>sha256</HashAlgorithms> <!-- Both MD5 and SHA256 are the industry-standard algorithms for identifying files -->
 	<CheckRevocation/> <!-- Check loaded drivers, log if their code-signing certificate has been revoked, in case malware stole one to sign a kernel driver -->
 
 	<!-- <ImageLoad/> --> <!-- Would manually force-on ImageLoad monitoring, even without configuration below. Included only documentation. -->
