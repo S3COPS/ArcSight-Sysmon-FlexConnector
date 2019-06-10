@@ -20,4 +20,5 @@ event.externalId,set.event.name
 19,WmiEventFilter activity detected
 20,WmiEventConsumer activity detected
 21,WmiEventConsumerToFilter activity detected
+22,DNS Query
 255,Error report
