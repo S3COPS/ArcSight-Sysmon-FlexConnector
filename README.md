@@ -1,5 +1,5 @@
 # ArcSight-Sysmon-FlexConnector
-Microfocus ArcSight Windows Native FlexConnector for Microsoft Sysmon tool
+Microfocus ArcSight Windows Native FlexConnector for Microsoft Sysmon tool https://technet.microsoft.com/en-gb/sysinternals/sysmon
 
 Sysmon WINC Parser
 Updated for Sysinternals Sysmon v10.x - System activity monitor, Copyright (C) Mark Russinovich and Thomas Garnier
