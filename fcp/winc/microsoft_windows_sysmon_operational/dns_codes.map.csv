@@ -1,0 +1,6 @@
+event.deviceCustomNumber1,set.event.message
+0,The request completed successfully.
+9001,DNS server unable to interpret format.
+9002,DNS server failure.
+9003,DNS name does not exist.
+9501,No records found for given DNS query.
