@@ -4,7 +4,7 @@ Microfocus ArcSight Windows Native FlexConnector for Microsoft Sysmon tool
 Sysmon WINC Parser
 Updated for Sysinternals Sysmon v10.x - System activity monitor, Copyright (C) Mark Russinovich and Thomas Garnier
 
-NOTE: when using DNS Query Logging functionality, you will need to ensure the ArcSight SmartConnector Java Image is whitelisted or does not carry out DNS lookups or you will see the original DNS Query as well as a followup query from the <ArcSight Connector>jre/bin/java.exe image.
+NOTE: when using DNS Query Logging functionality, you may want to ensure the ArcSight SmartConnector Java Image is whitelisted or does not carry out DNS lookups or you will see the original DNS Query as well as a followup query from the <ArcSight Connector>jre/bin/java.exe image on the SmartConnector Host.
 
 Device / Product version: Sysmon v9, should be backward compatible to Sysmon v3.
 https://technet.microsoft.com/en-gb/sysinternals/sysmon
