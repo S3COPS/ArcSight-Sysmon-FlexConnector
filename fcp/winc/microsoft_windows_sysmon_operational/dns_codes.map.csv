@@ -5,9 +5,9 @@ event.deviceCustomNumber1,set.event.message
 9003,DNS name does not exist.
 9004,DNS request not supported by name server.
 9005,DNS operation refused.
-9006,DNS name that ought not exist, does exist.
-9007,DNS RR set that ought not exist, does exist.
-9008,DNS RR set that ought to exist, does not exist.
+9006,"DNS name that ought not exist, does exist."
+9007,"DNS RR set that ought not exist, does exist."
+9008,"DNS RR set that ought to exist, does not exist."
 9009,DNS server not authoritative for zone.
 9010,DNS name in update or prereq is not in zone.
 9016,DNS signature failed to verify.
@@ -39,14 +39,14 @@ event.deviceCustomNumber1,set.event.message
 9124,The specified NSEC3 iteration count is higher than allowed by the minimum key length used in the zone.
 9125,This operation could not be completed because the DNS server has been configured with DNSSEC features disabled. Enable DNSSEC on the DNS server.
 9126,This operation could not be completed because the XML stream received is empty or syntactically invalid.
-9127,This operation completed, but no trust anchors were added because all of the trust anchors received were either invalid, unsupported, expired, or would not become valid in less than 30 days.
+9127,"This operation completed, but no trust anchors were added because all of the trust anchors received were either invalid, unsupported, expired, or would not become valid in less than 30 days."
 9128,The specified signing key is not waiting for parental DS update.
-9129,Hash collision detected during NSEC3 signing. Specify a different user-provided salt, or use a randomly generated salt, and attempt to sign the zone again.
+9129,"Hash collision detected during NSEC3 signing. Specify a different user-provided salt, or use a randomly generated salt, and attempt to sign the zone again."
 9130,NSEC is not compatible with the NSEC3-RSA-SHA-1 algorithm. Choose a different algorithm or use NSEC3.
 9501,No records found for given DNS query.
 9502,Bad DNS packet.
 9503,No DNS packet.
-9504,DNS error, check rcode.
+9504,"DNS error, check rcode."
 9505,Unsecured DNS packet.
 9506,DNS query request is pending.
 9551,Invalid DNS type.
