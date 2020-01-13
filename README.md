@@ -260,5 +260,6 @@ https://tdm.socprime.com/use-case-library/info/425/
 Microfocus have now released an out of the box SmartConnector for Sysmon - most organisations implementing Sysmon for the first time should check that out in the first instance.
 https://community.microfocus.com/t5/ArcSight-Connectors/MS-Sysmon-Logs-Windows-Event-Log-Native/ta-p/2697357
 Current feedback is that the coverage and mappings of the Microfocus SmartConnector are not great, so for now we will maintain support for this Flex.
+To override the defaul parser and stop any issues with conflicts, we have added the override setting in the properties file.
 We will review the continued maintenance of this FlexConnector once the quality / adoption of the OOB release is better known.
 
