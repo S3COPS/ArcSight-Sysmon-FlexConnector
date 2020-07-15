@@ -22,3 +22,4 @@ SysmonTask-SYSMON_WMI_CONSUMER,/Host/Resource/File,/Access,,/Success,/Informatio
 SysmonTask-SYSMON_WMI_BINDING,/Host/Resource/File,/Access,,/Success,/Informational/Warning,/Operating System,/Operating System,/Attack Lifecycle/Install,Source
 SysmonTask-SYSMON_ERROR,/Execute/Response,/Communicate,,/Success,/Informational/Error,/Operating System,/Operating System,,Source
 SysmonTask-DNS_QUERY,/Host/Application/Service,/Communicate/Query,,/Success,/Informational,Operating System,/Operating System,,Source
+SysmonTask-SYSMON_FILE_DELETE,/Host/Resource/File,/Delete,,/Success,/Informational,/Operating System,/Operating System,/Attack Lifecycle/Install,Source
