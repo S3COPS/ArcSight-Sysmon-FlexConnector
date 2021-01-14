@@ -21,5 +21,7 @@ event.externalId,set.event.name
 20,WmiEventConsumer activity detected
 21,WmiEventConsumerToFilter activity detected
 22,DNS Query
-23,File deleted
+23,File Deleted
+24,Clipboard changed
+25,Process Tampering
 255,Error report
